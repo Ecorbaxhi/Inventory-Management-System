@@ -8,22 +8,23 @@ python -m venv .venv
 ```
 
 ```bash
-# 4) Add pre-commit library
+# 3) Add pre-commit library
 uv add pre-commit
 ```
 
 ```bash
-# 5) Install pre-commit
+# 4) Install pre-commit
 pre-commit install
 ```
 
 ```bash
-# 6) Test -precommit
+# 5) Test -precommit
 pre-commit run --all-files
 ```
 
 ```bash
 # you wil use uv add (name of library) instead of pip install (name of library)
 
+# 6) Install libraries
 uv sync #to install in your .venv the libraries present in the project
 ```
