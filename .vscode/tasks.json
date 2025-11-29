@@ -1,0 +1,16 @@
+// .vscode/tasks.json
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Activate venv",
+      "type": "shell",
+      "command": "${workspaceFolder}/.venv/Scripts/activate",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false
+      }
+    }
+  ]
+}
